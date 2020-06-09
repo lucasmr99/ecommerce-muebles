@@ -1,0 +1,80 @@
+:root{
+    --fuentePrimaria: 'Playfair Display', serif;
+    --fuenteSecundaria: 'Relaway', sans-serif;
+    --primario: #037bc0;
+    --secundario: #8cbc00;
+}
+
+/* globales */
+.image-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: serif;
+}
+
+.bg-primary{
+    background-color: var(--primario) !important;
+}
+/* header */
+.titulo{
+    font-family: var(--fuentePrimaria);
+    font-size: 3em;
+}
+
+.titulo span {
+    color: var(--primario);
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.image-principal{
+    background-image: url(../img/img-principal.jpg);
+    height: 35rem;
+}
+
+.categoria a{
+    color: black;
+    font-size: 1.25rem;
+}
+
+/* nosotros */
+.imgen-nosotros{
+    background-image: url(../img/escritorio.jpg);
+    min-height: 30rem;
+} 
+
+/* nuestros productoss */
+.img-height{
+    min-height: 15rem;
+}
+
+.info-producto .precio{
+    font-size: 1.6rem;
+}
+
+.info-producto .btn-success{
+    background-color: var(--secundario);
+    border: var(--secundario);
+}
+
+/* footer */
+
+.footer{
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer-menu .nav-link{
+    color: #666;
+}
